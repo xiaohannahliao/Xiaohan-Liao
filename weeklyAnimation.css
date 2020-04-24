@@ -1,0 +1,106 @@
+div{
+  align-content: center;
+} 
+
+.squareClass{
+width:800px;
+height:400px;
+display: flex;
+ align-items: center;
+ margin-left:10%;
+ margin-top:5%;
+background-color:tomato;
+
+
+}
+ #square {
+      width: 300px;
+      height: 600px;
+      background: red;
+      margin-left: 20%;
+    }
+ #square2{
+ 	 width: 100px;
+      height: 100px;
+      background: pink;
+ }
+
+ #square3{
+ 	 width: 100px;
+      height: 100px;
+      background: orange;
+ }
+
+#square:hover{
+	transform: rotate(35deg);
+	animation-name: squareAnimation; /* refer to the animation */
+	animation-duration: 14s; /* define animation duration */
+
+}
+
+#square2:hover{
+	animation-name: square2Animation; /* refer to the animation */
+	animation-duration: 14s; /* define animation duration */
+}
+
+
+#square3:hover{
+	animation-name: square3Animation; /* refer to the animation */
+	animation-duration: 14s; /* define animation duration */
+	position: relative; /* if you dont add this line, the square wont move */
+}
+
+#square4{
+	 width: 100px;
+      height: 100px;
+      background: lightblue;
+      	animation-name: square4Animation; /* refer to the animation */
+	animation-duration: 10s; /* define animation duration */
+}
+
+#square4:hover{
+
+animation-direction: reverse; /*revers the previous animation */
+	
+}
+
+
+/* simply change color */
+@keyframes squareAnimation{
+
+	from{background-color:red;}
+	to{background-color:orange;}
+}
+
+
+/* changing color in four phase*/
+@keyframes square2Animation{
+  0%   {background-color: darkgreen;}
+  25%  {background-color: orange;}
+  50%  {background-color: gold;}
+  100% {background-color: yellow;}
+}
+
+
+/*changing the position of the square*/
+
+@keyframes square3Animation{
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px; transform: rotate(35deg);}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/*scale up the square*/
+
+@keyframes square4Animation{
+  0%   {background-color:red; transform:scale(1.2);font-size: 10px;} /* scale(number) means scaleX(number), scaleY(number)*/
+  25%  {background-color:yellow; transform:scale(1.5,0.5);font-size: 12px;}/*sclae(x,y)*/
+  50%  {background-color:blue; transform:scale(0.5,2);font-size: 15px;}
+  75%  {background-color:green; transform:scale(2,3);font-size: 20px;}
+  100% {background-color:lightblue; transform:scale(1);  border-radius: 100%;font-size: 30px;} /* turn rect to ellipse */
+
+}
+
+
