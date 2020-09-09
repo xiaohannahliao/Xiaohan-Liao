@@ -20,6 +20,7 @@ let maxFreq = 1000;
 let song;
 let vg1;
 var ps= [];
+let poses=[];
 var particles_a = [];
 var particles_b = [];
 var particles_c = [];
@@ -27,14 +28,17 @@ var nums =25;
 let xk;
 let yk;
 var noiseScale = 900;
-/*function preload() {
-  
+let playing;
+function preload() {
+
   //song = createAudio('wind.mp3');
-}*/
+  //vg1 = createAudio('welcome.mp3');
+}
+
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-  vg1 = loadSound('welcome.mp3');
+
   video = createCapture(VIDEO);
   video.size(windowWidth, windowHeight);
   video.hide();
@@ -45,7 +49,9 @@ function setup() {
     osc.setType('sine');
     osc.freq(random(minFreq, maxFreq));
     // scale amplitude to number of oscillators
+
     osc.amp(1.0 / oscCount); 
+   
     osc.start();
     allOscs.push(osc);
   }
@@ -58,12 +64,15 @@ for(var i = 0; i < nums; i++){
     particles_c[i] = new Particle(random(0, width),random(0,height),3,3,0.3);
   }
   
-   //textFont(inconsolata);
+    //vg1 = loadSound('welcome.mp3');
+
  
    background(0);
 
 }
-
+/*function mousePressed(){
+  vg1.play();
+}*/
 
 function gotPoses(poses) {
   //console.log(poses); 
@@ -76,6 +85,7 @@ function gotPoses(poses) {
 
 function modelLoaded() {
   console.log('poseNet ready');
+  //vg1.play();
 }
 
 function draw() {
@@ -85,10 +95,10 @@ function draw() {
   rect(0, 0, windowWidth, windowHeight);
 
  // song.loop();
-  //vg1.play();
+  
    //   filter(BLUR, 10);
   if (pose) {
- //  vg1.play();
+    //vg1.play();
     let eyeR = pose.rightEye;
     let eyeL = pose.leftEye;
     let d = dist(eyeR.x, eyeR.y, eyeL.x, eyeL.y);
@@ -98,52 +108,60 @@ function draw() {
     var green = map((pose.rightWrist.x - pose.rightWrist.y), 0, windowWidth, 100, 255);
     var blue = map((pose.leftWrist.x - pose.leftWrist.y), 0, windowHeight, 100, 255);
 
-  //  fill(red, green, blue,100);
+   fill(red, green, blue,100);
    // stroke(red, green, blue,255);
 
     wristD=dist(pose.rightWrist.x, pose.rightWrist.y, pose.leftWrist.x, pose.leftWrist.y);
     amplif=pose.rightWrist.y;
     var dia = 1 + (sin(pose.leftWrist.x) * pose.leftWrist.x);
-    var dia2 = 10 + (cos(pose.rightWrist.x) * pose.rightWrist.x);
-   //ellipse(pose.rightWrist.x, pose.rightWrist.y, dia);
-    //ellipse(pose.leftWrist.x, pose.leftWrist.y, dia2);
+    var dia2 = 1+ (cos(pose.rightWrist.x) * pose.rightWrist.x);
+   ellipse(pose.rightWrist.x, pose.rightWrist.y, dia/180);
+  ellipse(pose.leftWrist.x, pose.leftWrist.y, dia/180);
 
    noStroke();
     
   smooth();
-   /* for(var i = 0; i < nums; i++){
+    for (let i = 0; i < pose.keypoints.length; i++) {
+      let x = pose.keypoints[i].position.x;
+      let y = pose.keypoints[i].position.y;
+      fill(red, green, 0);
+     
+      ellipse(noise(x,x-1), noise(y-1,y), dia/150);
+    }
 
-   var newP = new Particle(pose.rightWrist.x, pose.rightWrist.y, pose.rightWrist.x, pose.rightWrist.y,0.1);
-       var newp2 =new Particle(pose.leftWrist.x, pose.leftWrist.y, pose.rightWrist.x, pose.rightWrist.y,0.3);
-         var newp3 =new Particle(pose.rightEye.x, pose.rightEye.y, pose.rightWrist.x, pose.rightWrist.y,0.3);
-      particles_a[i]=newP;
-         particles_b[i]=newp2;
-            particles_c[i]=newp3;
+    for (let i = 0; i < skeleton.length; i++) {
+      let a = skeleton[i][0];
+      let b = skeleton[i][1];
+     // strokeWeight(2);
+      //stroke(255);
+     fill(0,green,blue);
+      ellipse(a.position.x, a.position.y,dia/50);
+     ellipse( b.position.x, b.position.y,dia/50)
+      stroke(red,0,blue);
+      strokeWeight(0.1);
+      
 
-    }*/
-    //noFill();
-    
-  
+    }
 
-//var newP2 = new Particle(d, eyeL.y);
-//ellipse(eyeR.x,eyeR.y,d);
+
   for(var i2 = 0; i2 < nums; i2++){
     
         var radius = map(i2,0,nums,1,pose.rightWrist.x/30);
-        var radius2 = map(i2,0,nums,1,pose.leftWrist.x/30);
+        var radius2 = map(i2,0,nums,1,pose.leftWrist.x/40);
     var alpha = map(i2,0,nums,0,250);
 
-             particles_a[i2].speed =d/100;
-             particles_b[i2].speed =wristD/100;
+            // particles_a[i2].speed =d/100;
+             //particles_b[i2].speed =d/120;
          // particles_b[i2]=newP2;
-                particles_a[i2].vel=createVector(wristD,pose.leftWrist.x);
+                //particles_a[i2].vel=createVector(wristD,pose.leftWrist.x);
+    stroke(red,green,blue,100);
     fill(red,100,blue,alpha);
      
     particles_a[i2].move();
     particles_a[i2].display(radius);
     particles_a[i2].checkEdge();
 
-    fill(25,green,blue,alpha);
+    fill(125,green,blue,alpha);
     particles_b[i2].move();
     particles_b[i2].display(radius);
     particles_b[i2].checkEdge();
@@ -153,44 +171,16 @@ function draw() {
     particles_c[i2].display(radius2);
     particles_c[i2].checkEdge();
   }  
-    /* beginShape();  
-    /*  for(let i=0; i<rwcnt; i++){
-     ellipse(rwx[i], rwy[i],12);
-     }*/
 
-
-
-    /*ellipse(pose.rightWrist.x, pose.rightWrist.y, pose.rightWrist.x*0.2);
-     ellipse(pose.leftWrist.x, pose.leftWrist.y,pose.leftWrist.x*0.2);*/
-    //  
-    /* for (let i = 0; i < pose.keypoints.length; i++) {
-     let x = pose.keypoints[i].position.x;
-     let y = pose.keypoints[i].position.y;
-     beginShape();
-     vertex(x, y);
-     endShape(CLOSE);
-     }*/
-
-    /* for (let i = 0; i < skeleton.length; i++) {
-     let a = skeleton[i][0];
-     let b = skeleton[i][0];
-     strokeWeight(2);
-     stroke(255);
-     //line(a.position.x, a.position.y, b.position.x, b.position.y);
-     beginShape();
-     vertex(a.position.x, a.position.y);
-     vertex( b.position.x, b.position.y);
-     endShape(CLOSE);
-     let kd= dist(a.position.x, a.position.y, b.position.x, b.position.y);
-     rotate(kd);
-     }*/
+  
 
   }
-
+   
 
 
   for (let i = 0; i < oscCount; i++) {
     allOscs[i].freq(random(10, wristD+440));
+    allOscs[i].amp(.01);
   }
 }
 
@@ -199,7 +189,7 @@ function Particle(x, y){
   this.dir = createVector(0, 0);
   this.vel = createVector(-x,-y);
   this.pos = createVector(x, y);
-  this.speed = 0.3;
+  this.speed = 0.1;
 
   this.move = function(){
     var angle = noise(this.pos.x/noiseScale, this.pos.y/noiseScale)*TWO_PI*noiseScale;
@@ -225,3 +215,6 @@ function Particle(x, y){
 function keyPressed(){
   save('myTracking.jpg');
 }
+
+
+
