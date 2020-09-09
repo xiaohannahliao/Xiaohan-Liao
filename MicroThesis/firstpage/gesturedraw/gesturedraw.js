@@ -34,7 +34,7 @@ var noiseScale = 900;
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-   vg1 = loadSound('welcome.mp3');
+  vg1 = loadSound('welcome.mp3');
   video = createCapture(VIDEO);
   video.size(windowWidth, windowHeight);
   video.hide();
@@ -83,12 +83,12 @@ function draw() {
  
   fill(0,0.2);
   rect(0, 0, windowWidth, windowHeight);
-vg1.play();
+
  // song.loop();
   //vg1.play();
    //   filter(BLUR, 10);
   if (pose) {
-
+ //  vg1.play();
     let eyeR = pose.rightEye;
     let eyeL = pose.leftEye;
     let d = dist(eyeR.x, eyeR.y, eyeL.x, eyeL.y);
