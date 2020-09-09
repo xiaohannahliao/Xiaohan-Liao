@@ -49,7 +49,7 @@ function setup() {
     allOscs.push(osc);
   }
 
-  song.volume(0.2);
+  song.volume(0.1);
   vg1.volume(1);
 
 for(var i = 0; i < nums; i++){
