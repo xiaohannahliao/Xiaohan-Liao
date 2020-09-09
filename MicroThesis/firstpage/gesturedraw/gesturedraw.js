@@ -27,13 +27,14 @@ var nums =25;
 let xk;
 let yk;
 var noiseScale = 900;
-function preload() {
-  vg1 = createAudio('welcome.mp3');
-  song = createAudio('wind.mp3');
-}
+/*function preload() {
+  
+  //song = createAudio('wind.mp3');
+}*/
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
+   vg1 = loadSound('welcome.mp3');
   video = createCapture(VIDEO);
   video.size(windowWidth, windowHeight);
   video.hide();
@@ -49,8 +50,7 @@ function setup() {
     allOscs.push(osc);
   }
 
-  song.volume(0.1);
-  vg1.volume(1);
+
 
 for(var i = 0; i < nums; i++){
     particles_a[i] = new Particle(random(0, windowWidth),random(0,windowHeight));
@@ -62,7 +62,6 @@ for(var i = 0; i < nums; i++){
  
    background(0);
 
- 
 }
 
 
@@ -80,10 +79,13 @@ function modelLoaded() {
 }
 
 function draw() {
+   
+ 
   fill(0,0.2);
   rect(0, 0, windowWidth, windowHeight);
-  song.loop();
-  vg1.play();
+vg1.play();
+ // song.loop();
+  //vg1.play();
    //   filter(BLUR, 10);
   if (pose) {
 
@@ -218,4 +220,8 @@ function Particle(x, y){
   this.display = function(r){
     ellipse(this.pos.x, this.pos.y, r, r);
   };
+}
+
+function keyPressed(){
+  save('myTracking.jpg');
 }
