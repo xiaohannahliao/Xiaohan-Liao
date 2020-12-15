@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hannah's project</title>
+
+	<style type="text/css">
+		
+/* isometric perspective for everyone 4 of us */
+
+body{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: white;
+  background-color: #272727;
+  font-weight: 200;
+}
+:root {
+  --base:              #f7392b;
+  --bg-blend:          multiply;
+  --blur:              0px;
+  --fg-blend:          lighten;
+  --foreground:        #212121;
+  --opacity:           1;
+  --spacing:           1%;
+}
+#holder_hannah {
+  display:grid;
+  width: 95%;
+  height: 320vw;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, 3vw);
+  grid-auto-rows: 2.88675vw;
+}
+#holder_hannah > *{
+  transform-origin: top left;
+  /*background-color: #cddab9;*/
+  line-height: 120%;
+}
+h1 {
+  transform: skewY(-30deg);
+  font-size: 4vw;
+  padding: 1.2vw;
+  border-left: white 1px solid;
+  z-index: 10;
+}
+img{
+  height:120%;
+  transform: rotateZ(-60deg) skewY(30deg);
+  z-index: 5;
+}
+p {
+  font-size: 2.0vw;
+  padding: 1.5vw 1vw 1vw 1vw;
+  margin-bottom: 1px;
+}
+.leon {
+  border-bottom: #CF5326 4px solid;
+  color: #F2F2EF;
+  text-align: right;
+  transform: skewY(30deg);
+  box-shadow: 0 14px 28px rgba(200,2000,2000,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  z-index: 10;
+}
+
+.holden {
+  border-top: #fff 4px solid;
+    color: #F2F2EF;
+  transform: skewY(-10deg);
+  z-index: 15;
+    box-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #dadada, 3px 3px 0 #adadad, 4px 4px 0px #5a5a5a, 5px 5px 0 #888888;
+  }
+.leon:hover{
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.holden:hover{
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#holder_hannah > p{
+  grid-column-end: span 3;
+  grid-row-end: span 2;
+}
+
+#holder_hannah > *:nth-child(1){
+  grid-column-start: 8;
+  grid-row-start: 4;  
+  grid-column-end: span 5;
+  grid-row-end: span 6;
+  background-color: #CF5326;
+  opacity: 0.4;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#holder_hannah > *:nth-child(2){
+      grid-column-start: 16;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+
+#holder_hannah > *:nth-child(3){
+  grid-column-start: 22;
+    grid-row-start: 8;
+    grid-row-end: span 10;
+
+}
+
+#holder_hannah > *:nth-child(4){
+    grid-column-start: 21;
+    grid-row-start: 1;
+    grid-column-end: span 6;
+
+}
+
+#holder_hannah > *:nth-child(5){
+  grid-column-start: 12;  
+  grid-row-start: 14;  
+  grid-column-end: span 8;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(6){
+grid-column-start: 19;
+    grid-row-start: 18;
+    grid-column-end: span 6;
+    grid-row-end: span 4;
+
+ 
+}
+
+#holder_hannah > *:nth-child(7){
+    grid-column-start: 5;
+    grid-row-start: 20;
+    grid-column-end: span 14;
+    grid-row-end: span 10;
+    color: #222;
+    background-color: #EFEA53;
+    opacity: 0.5;
+}
+#holder_hannah > *:nth-child(7):hover{
+  opacity: 1;
+
+}
+#holder_hannah > *:nth-child(8){
+   grid-column-start: 4;
+    grid-row-start: 27;
+    grid-column-end: span 11;
+    grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(9){
+grid-column-start: 15;
+    grid-row-start: 35;
+    grid-column-end: span 12;
+    grid-row-end: span 7;
+}
+
+#holder_hannah > *:nth-child(10){
+    grid-column-start: 4;
+    grid-row-start: 45;
+    grid-row-end: span 7;
+    grid-column-end: span 10;
+    background-image: url("img/hannah/bkg.svg");
+    color:#222;
+}
+#holder_hannah > *:nth-child(11){
+grid-column-start: 14;
+    grid-row-start: 44;
+    grid-row-end: 48;
+    grid-column-end: span 7;
+}
+#holder_hannah > *:nth-child(12){
+grid-column-start: 21;
+    grid-row-start: 49;
+    grid-column-end: span 5;
+    background-color: #2470D5;
+}
+#holder_hannah > *:nth-child(13){
+     grid-column-start: 19;
+    grid-row-start: 57;
+    grid-column-end: span 5;
+    grid-row-end: span 4;
+}
+#holder_hannah > *:nth-child(14) {
+    grid-column-start: 4;
+    grid-row-start: 50;
+    grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(15){
+  grid-column-start: 2;  
+  grid-row-start: 76;  
+  grid-column-end: span 2;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(16){
+  grid-column-start: 5;  
+  grid-row-start: 81;  
+  grid-column-end: span 2;  
+}
+
+.buttonText{
+	font-size: 20px;
+}
+.buttonText:hover{
+	color:yellow;
+}
+
+
+
+/*
+#holder_hannah > *:nth-child(17){
+  grid-column-start: 8;  
+  grid-row-start: 86;  
+  grid-column-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(18){
+  grid-column-start: 9;  
+  grid-row-start: 89;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(19){
+  grid-column-start: 3;  
+  grid-row-start: 95;  
+  grid-column-end: span 7;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(20){
+  grid-column-start: 3;  
+  grid-row-start: 107;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(21){
+  grid-column-start: 13;  
+  grid-row-start: 125;  
+  grid-column-end: span 6;  
+  grid-row-end: span 8;
+  font-size: 5vw;
+}
+
+#holder_hannah > *:nth-child(22){
+  grid-column-start: 16;  
+  grid-row-start: 14;  
+}
+
+#holder_hannah > *:nth-child(23){
+  grid-column-start: 12;  
+  grid-row-start: 22;  
+  grid-column-end: span 6;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(24){
+  grid-column-start: 0;  
+  grid-row-start: 27;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder_hannah > *:nth-child(25){
+  grid-column-start: 9;  
+  grid-row-start: 31;  
+  grid-column-end: span 2;
+}
+
+#holder_hannah > *:nth-child(26){
+  grid-column-start: 10;  
+  grid-row-start: 36;  
+}
+
+#holder_hannah > *:nth-child(27){
+  grid-column-start: 13;  
+  grid-row-start: 45;  
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(28){
+  grid-column-start: 2;  
+  grid-row-start: 48;  
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(29){
+  grid-column-start: 5;  
+  grid-row-start: 53;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(30){
+  grid-column-start: 9;  
+  grid-row-start: 57;  
+  grid-column-end: span 2;
+}
+
+#holder_hannah > *:nth-child(31){
+  grid-column-start: 11;  
+  grid-row-start: 63;  
+  grid-column-end: span 5;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(32){
+  grid-column-start: 13;  
+  grid-row-start: 71;  
+  grid-column-end: span 8;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(33){
+  grid-column-start: 2;  
+  grid-row-start: 84;  
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(34){
+  grid-column-start: 6;  
+  grid-row-start: 86;  
+}
+
+#holder_hannah > *:nth-child(35){
+  grid-column-start: 14;  
+  grid-row-start: 94;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(36){
+  grid-column-start: 11;  
+  grid-row-start: 105;  
+  grid-column-end: span 9;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(37){
+  grid-column-start: 5;  
+  grid-row-start: 117;  
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(38){
+  grid-column-start: 8;  
+  grid-row-start: 118;  
+  grid-column-end: span 8;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(39){
+  grid-column-start: 13;  
+  grid-row-start: 119;  
+  grid-column-end: span 4;
+}
+
+#holder_hannah > *:nth-child(40){
+  grid-column-start: 3;  
+  grid-row-start: 129;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder_hannah > *:nth-child(41){
+  grid-column-start: 11;  
+  grid-row-start: 5;  
+  grid-row-end: span 10;
+}
+
+#holder_hannah > *:nth-child(42){
+  grid-column-start: 1;  
+  grid-row-start: 13;  
+  grid-row-end: span 12;
+  margin-left: -20vw;
+}
+
+#holder_hannah > *:nth-child(43){
+  grid-column-start: 12;  
+  grid-row-start: 32;  
+  grid-row-end: span 12;
+}
+
+#holder_hannah > *:nth-child(44){
+  grid-column-start: 1;  
+  grid-row-start: 37;  
+  grid-row-end: span 10;
+  margin-left: -10vw;
+}
+
+#holder_hannah > *:nth-child(45){
+  grid-column-start: 8;  
+  grid-row-start: 56;  
+  grid-row-end: span 10;
+}
+
+#holder_hannah > *:nth-child(46){
+  grid-column-start: 1;  
+  grid-row-start: 71;  
+  grid-row-end: span 10;
+  margin-left: -10vw;
+}
+
+#holder_hannah > *:nth-child(47){
+  grid-column-start: 7;  
+  grid-row-start: 83;  
+  grid-row-end: span 10;
+}
+
+#holder_hannah > *:nth-child(48){
+  grid-column-start: 13;  
+  grid-row-start: 107;  
+  grid-row-end: span 8;
+}
+
+#holder_hannah > *:nth-child(49){
+  grid-column-start: 1;  
+  grid-row-start: 105;  
+  grid-row-end: span 8;
+  margin-left: -10vw;
+}
+
+#holder_hannah > *:nth-child(50){
+  grid-column-start: 1;  
+  grid-row-start: 140;  
+  grid-row-end: span 18;
+  margin-left: -5vw;
+}*/
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform:     translateY(0);
+    transform:         translateY(0)
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    transform:         translateY(-30px)
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform:     translateY(-15px);
+    transform:         translateY(-15px)
+  }
+}
+
+
+
+	</style>
+</head>
+<body>
+<!-- 
+For CSS Grid expertise:
+Rachel Andrew: https://gridbyexample.com/
+Jen Simmons: http://labs.jensimmons.com/
+ -->
+<div id="holder_hannah">
+  <h1>hannah<br>Space</h1>
+ 
+    <img class="leon img-wrapper" src="img/hannah/GFW1.png">
+  <img class="holden img-wrapper" src="img/hannah/GFW2.png">
+  <p class="leon">What's your space</p>
+  <p class="holden">Great Fire Wall</p>
+  <p class="leon">What's your concept</p>
+  <p class="holden">In this project, I visualized the usage of great internet firewall of China. 
+I decided to adapt a sarcastic but also humorous tone in my visual language to explain how the great firewall is working in the internet world.
+the solutions in each item decreases accordingly, the information and identity lose gradually blend in with the background throughout the process.</p>
+<p class="leon">What's the Mask</p>
+  <img class="holden" src="img/hannah/GFW3.png">
+
+  <p class="holden">The mask intend to help people to correct their speaking style both offline and online; thus become a better “netizen” and “citizen” in 
+Virtual and real world..</p>
+  <p class="leon">You Can Purchase the Mask on</p>
+  <p class="holden buttonText">https://gfwstore.com/</p>
+ <div class="holden">
+    <script type="text/javascript">
+      function play(){
+        var audio = document.getElementById("video");
+        audio.play();
+      }
+      function pause(){
+       var audio = document.getElementById("video");
+        audio.pause();
+      }
+    </script>
+    <p class="buttonText" onclick="play()">Video Explanation</p>
+    <p class="buttonText" onclick="pause()">Continue Browse</p>
+    
+  </div>
+
+<video width="550" height="500" class="leon" id="video">   <source src="video/GFW.mp4" type="video/mp4"></video>
+
+ 
+  
+</div>
+
+
+</body>
+</html>

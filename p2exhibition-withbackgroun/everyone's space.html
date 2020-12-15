@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Projects</title>
+</head>
+<style type="text/css">
+  body{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: white;
+  background-color: #070514;
+  background-image: url("img/everyone/bkg.svg");
+  font-weight: 200;
+}
+
+#holder {
+  display:grid;
+  width: 100%;
+  height: 420vw;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, 5vw);
+  grid-auto-rows: 2.88675vw;
+}
+#holder > *{
+  transform-origin: top left;
+  background-color: #021226;
+  line-height: 120%;
+}
+h1 {
+  transform: skewY(-30deg);
+  font-size: 4vw;
+  padding: 1.2vw;
+  border-left: white 1px solid;
+  z-index: 10;
+}
+img{height: 289%;transform: rotatez(-60deg) skewY(30deg);z-index: 5;
+  box-shadow: 0 14px 28px rgb(200 255 255 / 25%), 0 10px 10px rgba(0,0,0,0.22);}
+p {
+  font-size: 2.4vw;
+  padding: 1.5vw 1vw 1vw 1vw;
+  margin-bottom: 1px;
+}
+.leon {
+  border-bottom: #13ebe3 1px solid;
+  color: #13ebe3;
+  text-align: right;
+  transform: skewY(30deg);
+  z-index: 10;
+}
+.holden {
+  border-top: #de7eb5 1px solid;
+  color: #de7eb5;
+  transform: skewY(-30deg);
+  z-index: 15;
+}
+
+#holder > p{
+  grid-column-end: span 3;
+  grid-row-end: span 2;
+}
+
+#holder > *:nth-child(1){
+  grid-column-start: 2;
+  grid-row-start: 4;  
+  grid-column-end: span 5;
+  grid-row-end: span 6;
+}
+
+#holder > *:nth-child(2){
+  grid-column-start: 10;  
+  grid-row-start: 4;  
+}
+
+#holder > *:nth-child(3){
+  grid-column-start: 3;
+  grid-row-start: 9;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(4){grid-column-start: 7;grid-row-start: 12;grid-row-end: 18;grid-column-end: 9;}
+
+#holder > *:nth-child(5){
+  grid-column-start: 8;  
+  grid-row-start: 14;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder > *:nth-child(6) {
+    grid-column-start: 16;
+    grid-row-start: 18;
+    grid-column-end: span 2;
+}
+
+#holder > *:nth-child(7){
+  grid-column-start: 7;
+  grid-row-start: 24;
+  grid-row-end: span 3;
+  grid-column-end: span 6;
+}
+
+#holder > *:nth-child(8){
+  grid-column-start: 10;
+  grid-row-start: 28;
+}
+
+#holder > *:nth-child(9){
+  grid-column-start: 8;
+  grid-row-start: 21;
+  grid-column-end: 4;
+  grid-row-end: span 3;
+}
+
+#holder > *:nth-child(10){
+  grid-column-start: 17;
+  grid-row-start: 41;
+  grid-column-end: span 2;
+}
+
+#holder > *:nth-child(11){
+  grid-column-start: 11;
+  grid-row-start: 37;
+  grid-column-end: span 4;
+  grid-row-end: span 5;
+}
+
+#holder > *:nth-child(12){
+  grid-column-start: 13;
+  grid-row-end: 57;
+  grid-row-start: 53;
+  grid-column-end: 15;
+}
+
+#holder > *:nth-child(13){
+  grid-column-start: 6;
+  grid-row-start: 59;
+  grid-column-end: span 5;
+  grid-row-end: span 5;
+}
+
+#holder > *:nth-child(14){
+  grid-column-start: 7;
+  grid-row-start: 45;
+  grid-row-end: span 3;
+}
+
+#holder > *:nth-child(15){
+  grid-column-start: 3;
+  grid-row-start: 45;
+  grid-column-end: span 5;
+  grid-row-end: span 6;
+}
+
+#holder > *:nth-child(16){
+  grid-column-start: 7;
+  grid-row-start: 75;
+  grid-column-end: span 2;
+}
+
+#holder > *:nth-child(17){
+  grid-column-start: span 6;
+  grid-row-start: 84;
+  grid-row-end: 77;
+  grid-column-end: 12;
+}
+
+#holder > *:nth-child(18){
+  grid-column-start: 9;  
+  grid-row-start: 89;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder > *:nth-child(19){
+  grid-column-start: 3;  
+  grid-row-start: 95;  
+  grid-column-end: span 7;  
+  grid-row-end: span 4;  
+}
+
+#holder > *:nth-child(20){
+  grid-column-start: 3;  
+  grid-row-start: 107;  
+  grid-row-end: span 4;  
+}
+
+#holder > *:nth-child(21){
+  grid-column-start: 13;  
+  grid-row-start: 125;  
+  grid-column-end: span 6;  
+  grid-row-end: span 8;
+  font-size: 5vw;
+}
+
+#holder > *:nth-child(22){
+  grid-column-start: 16;  
+  grid-row-start: 14;  
+}
+
+#holder > *:nth-child(23){
+  grid-column-start: 12;  
+  grid-row-start: 22;  
+  grid-column-end: span 6;  
+  grid-row-end: span 4;  
+}
+
+#holder > *:nth-child(24){
+  grid-column-start: 0;  
+  grid-row-start: 27;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder > *:nth-child(25){
+  grid-column-start: 9;  
+  grid-row-start: 31;  
+  grid-column-end: span 2;
+}
+
+#holder > *:nth-child(26){
+  grid-column-start: 10;  
+  grid-row-start: 36;  
+}
+
+#holder > *:nth-child(27){
+  grid-column-start: 13;  
+  grid-row-start: 45;  
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(28){
+  grid-column-start: 2;  
+  grid-row-start: 48;  
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(29){
+  grid-column-start: 5;  
+  grid-row-start: 53;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(30){
+  grid-column-start: 9;  
+  grid-row-start: 57;  
+  grid-column-end: span 2;
+}
+
+#holder > *:nth-child(31){
+  grid-column-start: 11;  
+  grid-row-start: 63;  
+  grid-column-end: span 5;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(32){
+  grid-column-start: 13;  
+  grid-row-start: 71;  
+  grid-column-end: span 8;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(33){
+  grid-column-start: 2;  
+  grid-row-start: 84;  
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(34){
+  grid-column-start: 6;  
+  grid-row-start: 86;  
+}
+
+#holder > *:nth-child(35){
+  grid-column-start: 14;  
+  grid-row-start: 94;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(36){
+  grid-column-start: 11;  
+  grid-row-start: 105;  
+  grid-column-end: span 9;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(37){
+  grid-column-start: 5;  
+  grid-row-start: 117;  
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(38){
+  grid-column-start: 8;  
+  grid-row-start: 118;  
+  grid-column-end: span 8;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(39){
+  grid-column-start: 13;  
+  grid-row-start: 119;  
+  grid-column-end: span 4;
+}
+
+#holder > *:nth-child(40){
+  grid-column-start: 3;  
+  grid-row-start: 129;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder > *:nth-child(41){
+  grid-column-start: 11;  
+  grid-row-start: 5;  
+  grid-row-end: span 10;
+}
+
+#holder > *:nth-child(42){
+  grid-column-start: 1;  
+  grid-row-start: 13;  
+  grid-row-end: span 12;
+  margin-left: -20vw;
+}
+
+#holder > *:nth-child(43){
+  grid-column-start: 12;  
+  grid-row-start: 32;  
+  grid-row-end: span 12;
+}
+
+#holder > *:nth-child(44){
+  grid-column-start: 1;  
+  grid-row-start: 37;  
+  grid-row-end: span 10;
+  margin-left: -10vw;
+}
+
+#holder > *:nth-child(45){
+  grid-column-start: 8;  
+  grid-row-start: 56;  
+  grid-row-end: span 10;
+}
+
+#holder > *:nth-child(46){
+  grid-column-start: 1;  
+  grid-row-start: 71;  
+  grid-row-end: span 10;
+  margin-left: -10vw;
+}
+
+#holder > *:nth-child(47){
+  grid-column-start: 7;  
+  grid-row-start: 83;  
+  grid-row-end: span 10;
+}
+
+#holder > *:nth-child(48){
+  grid-column-start: 13;  
+  grid-row-start: 107;  
+  grid-row-end: span 8;
+}
+
+#holder > *:nth-child(49){
+  grid-column-start: 1;  
+  grid-row-start: 105;  
+  grid-row-end: span 8;
+  margin-left: -10vw;
+}
+
+#holder > *:nth-child(50){
+  grid-column-start: 1;  
+  grid-row-start: 140;  
+  grid-row-end: span 18;
+  margin-left: -5vw;
+}
+
+
+
+</style>
+<body>
+<!-- 
+For CSS Grid expertise:
+Rachel Andrew: https://gridbyexample.com/
+Jen Simmons: http://labs.jensimmons.com/
+ -->
+
+<div id="holder">
+  <h1>Everyone's Places<br></h1>
+  <p id="Fanni" class="leon">Fanni</p>
+ 
+  <img src="img/everyone/Fanni.png"></img>
+ <p class="holden">Kyle</p>
+   <img class="holden" src="img/everyone/kyle.png"></img>
+<p class="leon">Mingyang</p>
+   <img src="img/everyone/mingyang.png"></img>
+<p class="leon">Nick</p>
+ <img class="leon" src="img/everyone/nick.png"></img>
+ <p class="leon">Saap</p>
+ <img src="img/everyone/sapp.png"></img>
+ <p class="holden">Sora</p>
+ <img class="holden"src="img/everyone/sora.png"></img>
+ <p class="leon">Troy</p>
+ <img src="img/everyone/troy.png"></img>
+ <p class="holden">Yang</p>
+ <img src="img/everyone/yang.png"></img>
+</div>
+
+
+</body>
+
+<script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+
+</html>

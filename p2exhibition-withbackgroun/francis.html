@@ -1,0 +1,488 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Francis's project</title>
+
+  <style type="text/css">
+    
+/* isometric perspective for everyone 4 of us */
+
+body{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: white;
+  background-color: #E3E3C6;
+  font-weight: 200;
+}
+:root{
+    --yeqi-one:#0DF205;
+    --yeqi-two:#758C51;
+    --yeqi-three:#ADBF69;
+    --yeqi-four:#D3D932;
+    --yeqi-five:#E3E3C6;
+
+}
+#holder_francis {
+  display:grid;
+  width: 95%;
+  height: 420vw;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, 3vw);
+  grid-auto-rows: 2.88675vw;
+}
+#holder_francis > *{
+  transform-origin: top left;
+  background-color: #cddab9;
+  line-height: 120%;
+}
+h1 {
+  transform: skewY(-30deg);
+  font-size: 4vw;
+  padding: 1.2vw;
+  border-left: white 1px solid;
+  z-index: 10;
+}
+img{
+  height:120%;
+  transform: rotateZ(-60deg) skewY(30deg);
+  z-index: 5;
+}
+p {
+  font-size: 2.0vw;
+  padding: 1.5vw 1vw 1vw 1vw;
+  margin-bottom: 1px;
+}
+.leon {
+border-bottom: #46ad40 4px solid;
+    color: #000000;
+    text-align: right;
+    transform: skewY(30deg);
+    box-shadow: 0 14px 28px rgb(200 255 255 / 25%), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 10;
+}
+
+.holden {
+  border-top: #fff 4px solid;
+    color: #51544c;
+  transform: skewY(-10deg);
+  z-index: 15;
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.leon:hover{
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.holden:hover{
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#holder_francis > p{
+  grid-column-end: span 3;
+  grid-row-end: span 2;
+}
+
+#holder_francis > *:nth-child(1){
+grid-column-start: 6;
+    grid-row-start: 1;
+}
+
+#holder_francis > *:nth-child(2){
+grid-column-start: 28;
+    grid-row-start: 9;
+    grid-row-end: 4;
+    grid-column-end: 22;
+}
+#holder_francis > *:nth-child(3){
+grid-column-start: 18;
+    grid-row-start: -4;
+    grid-column-end: 14;
+    grid-row-end: 14;
+    border: solid transparent;
+}
+
+#holder_francis > *:nth-child(4){
+grid-column-start: 21;
+    grid-row-start: 14;
+    grid-row-end: span 2;
+    grid-column-end: span 7;
+}
+
+#holder_francis > *:nth-child(5){
+grid-column-start: 13;
+    grid-row-start: 14;
+    grid-column-end: span 8;
+    grid-row-end: span 4;
+    opacity: 0.4;
+}
+#holder_francis > *:nth-child(5):hover{
+  opacity: 1;
+}
+
+#holder_francis > *:nth-child(6){
+     grid-column-start: 21;
+    grid-row-start: 20;
+    grid-column-end: span 7;
+    grid-row-end: span 2;
+    opacity: 0.6;
+ 
+}
+
+#holder_francis > *:nth-child(7){
+grid-column-start: 18;
+    grid-row-start: 26;
+    grid-column-end: span 10;
+ 
+}
+
+#holder_francis > *:nth-child(8){
+    grid-column-start: 5;
+    grid-row-start: 33;
+    grid-column-end: span 11;
+    grid-row-end: span 4;
+
+}
+
+#holder_francis > *:nth-child(9){
+    grid-column-start: 5;
+    grid-row-start: 41;
+    grid-column-end: span 12;
+    grid-row-end: span 8;
+}
+
+#holder_francis > *:nth-child(10){
+grid-column-start: 21;
+    grid-row-start: 47;
+    grid-column-end: span 5; 
+}
+
+#holder_francis > *:nth-child(11){
+    grid-column-start: 5;
+    grid-row-start: 14;
+    grid-column-end: span 10;
+    grid-row-end: span 14;
+    background-image: url("img/francis/bkg.svg");
+
+}
+
+#holder_francis > *:nth-child(12){
+grid-column-start: 19;
+    grid-row-start: 34;
+    grid-column-end: span 10;
+    grid-column-end: 40;
+    width: 300px;
+    height: 480px;
+}
+
+#holder_francis > *:nth-child(13){
+grid-column-start: 12;
+    grid-row-start: 53;
+    grid-column-end: span 12;
+    grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(14){
+    grid-column-start: 7;
+    grid-row-start: 57;
+    grid-row-end: span 7;
+    grid-column-end: span 7;
+  }
+
+#holder_francis > *:nth-child(15){
+grid-column-start: 12;
+    grid-row-start: 68;
+    grid-column-end: span 2;
+    grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(16){
+  grid-column-start: 5;  
+  grid-row-start: 81;  
+  grid-column-end: span 2;  
+}
+
+.buttonText{
+  font-size: 20px;
+}
+.buttonText:hover{
+  color:yellow;
+}
+
+#holder_francis > *:nth-child(17){
+  grid-column-start: 8;  
+  grid-row-start: 86;  
+  grid-column-end: span 4;  
+}
+
+
+
+#holder_francis > *:nth-child(18){
+  grid-column-start: 9;  
+  grid-row-start: 89;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder_francis > *:nth-child(19){
+  grid-column-start: 3;  
+  grid-row-start: 95;  
+  grid-column-end: span 7;  
+  grid-row-end: span 4;  
+}
+
+#holder_francis > *:nth-child(20){
+  grid-column-start: 3;  
+  grid-row-start: 107;  
+  grid-row-end: span 4;  
+}
+
+/*
+#holder_francis > *:nth-child(21){
+  grid-column-start: 13;  
+  grid-row-start: 125;  
+  grid-column-end: span 6;  
+  grid-row-end: span 8;
+  font-size: 5vw;
+}
+
+#holder_francis > *:nth-child(22){
+  grid-column-start: 16;  
+  grid-row-start: 14;  
+}
+
+#holder_francis > *:nth-child(23){
+  grid-column-start: 12;  
+  grid-row-start: 22;  
+  grid-column-end: span 6;  
+  grid-row-end: span 4;  
+}
+
+#holder_francis > *:nth-child(24){
+  grid-column-start: 0;  
+  grid-row-start: 27;  
+  grid-column-end: span 4;  
+  grid-row-end: span 4;  
+}
+
+#holder_francis > *:nth-child(25){
+  grid-column-start: 9;  
+  grid-row-start: 31;  
+  grid-column-end: span 2;
+}
+
+#holder_francis > *:nth-child(26){
+  grid-column-start: 10;  
+  grid-row-start: 36;  
+}
+
+#holder_francis > *:nth-child(27){
+  grid-column-start: 13;  
+  grid-row-start: 45;  
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(28){
+  grid-column-start: 2;  
+  grid-row-start: 48;  
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(29){
+  grid-column-start: 5;  
+  grid-row-start: 53;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(30){
+  grid-column-start: 9;  
+  grid-row-start: 57;  
+  grid-column-end: span 2;
+}
+
+#holder_francis > *:nth-child(31){
+  grid-column-start: 11;  
+  grid-row-start: 63;  
+  grid-column-end: span 5;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(32){
+  grid-column-start: 13;  
+  grid-row-start: 71;  
+  grid-column-end: span 8;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(33){
+  grid-column-start: 2;  
+  grid-row-start: 84;  
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(34){
+  grid-column-start: 6;  
+  grid-row-start: 86;  
+}
+
+#holder_francis > *:nth-child(35){
+  grid-column-start: 14;  
+  grid-row-start: 94;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(36){
+  grid-column-start: 11;  
+  grid-row-start: 105;  
+  grid-column-end: span 9;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(37){
+  grid-column-start: 5;  
+  grid-row-start: 117;  
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(38){
+  grid-column-start: 8;  
+  grid-row-start: 118;  
+  grid-column-end: span 8;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(39){
+  grid-column-start: 13;  
+  grid-row-start: 119;  
+  grid-column-end: span 4;
+}
+
+#holder_francis > *:nth-child(40){
+  grid-column-start: 3;  
+  grid-row-start: 129;  
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+
+#holder_francis > *:nth-child(41){
+  grid-column-start: 11;  
+  grid-row-start: 5;  
+  grid-row-end: span 10;
+}
+
+#holder_francis > *:nth-child(42){
+  grid-column-start: 1;  
+  grid-row-start: 13;  
+  grid-row-end: span 12;
+  margin-left: -20vw;
+}
+
+#holder_francis > *:nth-child(43){
+  grid-column-start: 12;  
+  grid-row-start: 32;  
+  grid-row-end: span 12;
+}
+
+#holder_francis > *:nth-child(44){
+  grid-column-start: 1;  
+  grid-row-start: 37;  
+  grid-row-end: span 10;
+  margin-left: -10vw;
+}
+
+#holder_francis > *:nth-child(45){
+  grid-column-start: 8;  
+  grid-row-start: 56;  
+  grid-row-end: span 10;
+}
+
+#holder_francis > *:nth-child(46){
+  grid-column-start: 1;  
+  grid-row-start: 71;  
+  grid-row-end: span 10;
+  margin-left: -10vw;
+}
+
+#holder_francis > *:nth-child(47){
+  grid-column-start: 7;  
+  grid-row-start: 83;  
+  grid-row-end: span 10;
+}
+
+#holder_francis > *:nth-child(48){
+  grid-column-start: 13;  
+  grid-row-start: 107;  
+  grid-row-end: span 8;
+}
+
+#holder_francis > *:nth-child(49){
+  grid-column-start: 1;  
+  grid-row-start: 105;  
+  grid-row-end: span 8;
+  margin-left: -10vw;
+}
+
+#holder_francis > *:nth-child(50){
+  grid-column-start: 1;  
+  grid-row-start: 140;  
+  grid-row-end: span 18;
+  margin-left: -5vw;
+}*/
+
+#video{
+  background: transparent;
+}
+
+  </style>
+</head>
+<body>
+<!-- 
+For CSS Grid expertise:
+Rachel Andrew: https://gridbyexample.com/
+Jen Simmons: http://labs.jensimmons.com/
+ -->
+<div id="holder_francis">
+  <h1>Francis<br>Space</h1>
+
+
+  <div class="leon">
+    <script type="text/javascript">
+      function play(){
+        var v = document.getElementById("video");
+        audio.play();
+      }
+      function pause(){
+       var v = document.getElementById("video");
+        v.pause();
+      }
+    </script>
+    <p class="buttonText" onclick="play()">Play Video Tour</p>
+    <p class="buttonText" onclick="pause()">Pause Video Tour</p>
+    
+  </div>
+
+<video width="400" height="500" class="holden" id="video">   <source src="video/Francis_P2_intro.mp4" type="video/mp4"></video>
+  <p class="leon">What's your space</p>
+  <p class="holden">Google Image Translation</p>
+  <p class="leon">What's your concept</p>
+  <p class="holden">Although the Google Image translation result is not satisfactory, the visual effect after translation looks pretty cool. </p>
+  <p class="holden">The texts are stretched and rotated, expressing a very straightforward, wild aesthetic. What's even more amazing is that some objects could also be translated, such as my apartment building, delivery boxes, shadows...
+</p>
+  <p class="holden">Compare the translation with the apartment building again and again, looking for clues. Which part looks like A, and which part looks like E... It's like I'm playing hide-and-seek with the letters. </p>
+  <p class="leon">What's your process</p>
+
+  <p class="leon">The apartment building was so familiar to me that I saw it as a pink row building. In "hide and seek", I imitate the mobile phone software, decomposition of images, break and put together...Fragmented images, information, recombination, means infinite possibilities. Unrelated items, images, and text can all be connected in series after being fragmented. </p>
+<img class="holden" src="img/francis/francis2.jpeg">
+<p class="holden">My artifacts are useless keyboards. I want to bring the users into a hide-and-seek world through the failed keyboards. The characters on keyboards do not exist in isolation, but are connected with each other.</p>
+  <p class="leon">Everything is connected. Can technology direct us to invisible relationships, or cause chaos?
+</p>
+<p class="holden">Hide and Seek </p>
+
+  
+</div>
+
+
+</body>
+</html>
