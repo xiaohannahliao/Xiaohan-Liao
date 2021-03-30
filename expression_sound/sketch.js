@@ -138,7 +138,7 @@ function draw() {
        // ellipse(positions[i][0], positions[i][1], 4, 4);
         push();
         translate(width/2,height/2);
-        ellipse(-noseX/5,0,smilesize*2,smilesize*2);
+        ellipse(0,0,smilesize*2,smilesize*2);
         textSize(12);
         text("Smile or Move your head to Enlarge the Circle",-30,-200,250,200);
        pop();
