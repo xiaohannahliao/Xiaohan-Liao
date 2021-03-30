@@ -226,4 +226,6 @@ function savesound() {
 }
 
 
-
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
