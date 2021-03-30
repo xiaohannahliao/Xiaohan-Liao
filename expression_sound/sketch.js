@@ -207,7 +207,7 @@ function playBack() {
    const x = Math.sin(frameCount);
   const y = Math.cos(frameCount);
 // oscEnv.process(soundRecord);
-let z = map(frameCount, 0,1000,-10,100)
+let z = map(frameCount, 0,1000,-10,1000)
  pan3D.set(x, y, z);
 pan3D.process(soundRecord);
   //oscEnv.process(soundRecord);
