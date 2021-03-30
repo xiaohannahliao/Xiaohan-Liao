@@ -204,8 +204,8 @@ function playBack() {
   recorder.stop();
   soundRecord.setVolume(1);
  osc.stop();
-   const x = Math.sin(frameCount);
-  const y = Math.cos(frameCount);
+   const x = Math.sin(frameCount) * 10;
+  const y = Math.cos(frameCount) * 10;
 // oscEnv.process(soundRecord);
 let z = map(frameCount, 0,1000,-10,1000)
  pan3D.set(x, y, z);
