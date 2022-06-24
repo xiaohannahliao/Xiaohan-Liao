@@ -28,7 +28,7 @@
   width: 2554px;
 }
 
-.google-design-challenge .overlap-group11 {
+.google-design-challenge .overlap-group9 {
   height: 1227px;
   margin-left: 6px;
   position: relative;
@@ -43,7 +43,7 @@
   width: 1440px;
 }
 
-.google-design-challenge .overlap-group5 {
+.google-design-challenge .overlap-group3 {
   height: 159px;
   left: 268px;
   position: absolute;
@@ -124,333 +124,12 @@
   width: 613px;
 }
 
-.google-design-challenge .group-2 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  margin-top: 92px;
-  min-height: 305px;
-  width: 1265px;
-}
-
-.google-design-challenge .flex-col-2 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 173px;
-  width: 1248px;
-}
-
-.google-design-challenge .flex-row-1 {
-  align-items: flex-start;
-  display: flex;
-  height: 71px;
-  margin-left: 1.0px;
-  min-width: 1113px;
-}
-
-.google-design-challenge .frame-1 {
-  align-items: flex-end;
-  background-color: var(--white-ice);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  margin-top: 3px;
-  min-width: 58px;
-}
-
-.google-design-challenge .flex-col-3 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: -70.34px;
-  min-height: 108px;
-  width: 36px;
-}
-
-.google-design-challenge .surname {
-  letter-spacing: 0;
-  min-height: 16px;
-  width: 36px;
-}
-
-.google-design-challenge .line-1 {
-  height: 71px;
-  margin-right: 10.0px;
-  margin-top: 22px;
-  width: 5px;
-}
-
-.google-design-challenge .line-2 {
-  height: 40px;
-  margin-bottom: -151.33px;
-  margin-left: 153px;
-  width: 5px;
-}
-
-.google-design-challenge .line-3 {
-  height: 71px;
-  margin-bottom: -69.34px;
-  margin-left: 168px;
-  width: 5px;
-}
-
-.google-design-challenge .line-6 {
-  height: 40px;
-  margin-bottom: -151.33px;
-  margin-left: 161px;
-  width: 5px;
-}
-
-.google-design-challenge .line-4 {
-  height: 71px;
-  margin-bottom: -69.34px;
-  margin-left: 181px;
-  width: 5px;
-}
-
-.google-design-challenge .line-5 {
-  height: 71px;
-  margin-bottom: -72.33px;
-  margin-left: 347px;
-  width: 5px;
-}
-
-.google-design-challenge .painpoints-from-inte {
-  align-self: flex-end;
-  height: 39px;
-  letter-spacing: 0;
-  margin-left: 66px;
-  width: 180px;
-}
-
-.google-design-challenge .frame-3 {
-  align-items: flex-start;
-  background-color: var(--cruise);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  margin-left: 49px;
-  min-width: 58px;
-  padding: 20px 8px;
-}
-
-.google-design-challenge .rapid-user-testing {
-  align-self: flex-end;
-  height: 14px;
-  letter-spacing: 0;
-  margin-bottom: 13px;
-  margin-left: 58px;
-  width: 180px;
-}
-
-.google-design-challenge .frame-5 {
-  align-items: flex-start;
-  background-color: var(--aquamarine);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  margin-left: 55px;
-  min-width: 58px;
-  padding: 20px 8px;
-}
-
-.google-design-challenge .low-fidelity-ideatio {
-  align-self: flex-end;
-  height: 14px;
-  letter-spacing: 0;
-  margin-bottom: 7px;
-  margin-left: 64px;
-  width: 180px;
-}
-
-.google-design-challenge .frame-7 {
-  align-items: flex-start;
-  background-color: var(--bondi-blue);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  margin-left: 49px;
-  margin-top: 3px;
-  min-width: 58px;
-  padding: 20px 8px;
-}
-
-.google-design-challenge .group-1 {
-  align-items: flex-start;
-  display: flex;
-  margin-top: 54px;
-  min-width: 1248px;
-}
-
-.google-design-challenge .rectangle-1 {
-  background-color: #c9f0ee9c;
-  border-radius: 50px 0px 0px 50px;
-  height: 48px;
-  width: 178px;
-}
-
-.google-design-challenge .overlap-group {
-  height: 48px;
-  position: relative;
-  width: 357px;
-}
-
-.google-design-challenge .rectangle-2 {
-  background-color: #b8ebe9c2;
-  height: 48px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 178px;
-}
-
-.google-design-challenge .rectangle-3 {
-  background-color: #9ce3e0b8;
-  height: 48px;
-  left: 178px;
-  position: absolute;
-  top: 0;
-  width: 178px;
-}
-
-.google-design-challenge .rectangle-4 {
-  background-color: #78d9d5ba;
-  height: 48px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 178px;
-}
-
-.google-design-challenge .rectangle-5 {
-  background-color: #5ed2cdd6;
-  height: 48px;
-  left: 178px;
-  position: absolute;
-  top: 0;
-  width: 178px;
-}
-
-.google-design-challenge .rectangle-6 {
-  background-color: #00b8b0a1;
-  height: 48px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 178px;
-}
-
-.google-design-challenge .rectangle-7 {
-  background-color: var(--bondi-blue);
-  border-radius: 0px 50px 50px 0px;
-  height: 48px;
-  left: 178px;
-  position: absolute;
-  top: 0;
-  width: 178px;
-}
-
-.google-design-challenge .flex-row-2 {
-  align-items: center;
-  align-self: center;
-  display: flex;
-  height: 130px;
-  margin-right: 9.0px;
-  margin-top: 2px;
-  min-width: 1246px;
-}
-
-.google-design-challenge .identify-the-problem {
-  align-self: flex-end;
-  height: 126px;
-  letter-spacing: 0;
-  width: 158px;
-}
-
-.google-design-challenge .frame-2 {
-  align-items: flex-start;
-  background-color: var(--mint-tulip);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  margin-left: 82px;
-  margin-top: 6.33px;
-  min-width: 58px;
-  padding: 20px 8px;
-}
-
-.google-design-challenge .paper-prototypes {
-  height: 14px;
-  letter-spacing: 0;
-  margin-left: 60px;
-  margin-top: 2.33px;
-  width: 180px;
-}
-
-.google-design-challenge .frame-4 {
-  align-items: flex-start;
-  background-color: var(--morning-glory);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  margin-left: 44px;
-  margin-top: 6.33px;
-  min-width: 58px;
-  padding: 20px 8px;
-}
-
-.google-design-challenge .low-fidelity-ideation-1 {
-  height: 14px;
-  letter-spacing: 0;
-  margin-left: 82px;
-  margin-top: 0.33px;
-  width: 180px;
-}
-
-.google-design-challenge .overlap-group3 {
-  align-self: flex-start;
-  height: 97px;
-  margin-left: 42px;
-  position: relative;
-  width: 58px;
-}
-
-.google-design-challenge .frame-6 {
-  align-items: flex-start;
-  background-color: var(--viking);
-  border-radius: 29px;
-  display: flex;
-  height: 58px;
-  justify-content: flex-end;
-  left: 0;
-  min-width: 58px;
-  padding: 20px 8px;
-  position: absolute;
-  top: 39px;
-}
-
-.google-design-challenge .line-6-1 {
-  height: 40px;
-  left: 24px;
-  position: absolute;
-  top: 0;
-  width: 5px;
-}
-
-.google-design-challenge .high-fidelity-frames {
-  height: 14px;
-  letter-spacing: 0;
-  margin-left: 64px;
-  margin-top: 2.33px;
-  width: 180px;
+.google-design-challenge .image-2 {
+  height: 309px;
+  margin-left: 93px;
+  margin-top: 90px;
+  object-fit: cover;
+  width: 1266px;
 }
 
 .google-design-challenge .view-final-solution-video {
@@ -458,12 +137,12 @@
   display: flex;
   height: 883px;
   margin-left: 32px;
-  margin-top: 48px;
+  margin-top: 46px;
   padding: 1px 72px;
   width: 1414px;
 }
 
-.google-design-challenge .overlap-group-1 {
+.google-design-challenge .overlap-group {
   height: 786px;
   position: relative;
   width: 1270px;
@@ -502,7 +181,7 @@
   width: 2491px;
 }
 
-.google-design-challenge .flex-row-3 {
+.google-design-challenge .flex-row-1 {
   align-items: center;
   align-self: flex-end;
   display: flex;
@@ -511,7 +190,7 @@
   min-width: 2476px;
 }
 
-.google-design-challenge .flex-col-4 {
+.google-design-challenge .flex-col-2 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -562,7 +241,7 @@
   width: 24px;
 }
 
-.google-design-challenge .flex-row-4 {
+.google-design-challenge .flex-row-2 {
   align-items: flex-end;
   display: flex;
   margin-left: 20px;
@@ -570,7 +249,7 @@
   min-width: 1298px;
 }
 
-.google-design-challenge .frame-3-1 {
+.google-design-challenge .frame-3 {
   height: 776px;
   width: 882px;
 }
@@ -582,14 +261,14 @@
   width: 411px;
 }
 
-.google-design-challenge .frame-4-1 {
+.google-design-challenge .frame-4 {
   height: 767px;
   margin-left: -84px;
   margin-top: 10px;
   width: 1309px;
 }
 
-.google-design-challenge .frame-6-1 {
+.google-design-challenge .frame-6 {
   height: 779px;
   margin-top: 16px;
   width: 1343px;
@@ -663,7 +342,7 @@
   width: 1076px;
 }
 
-.google-design-challenge .frame-5-1 {
+.google-design-challenge .frame-5 {
   height: 686px;
   margin-left: 6px;
   margin-top: 121px;
@@ -678,7 +357,7 @@
   width: 1355px;
 }
 
-.google-design-challenge .frame-7-1 {
+.google-design-challenge .frame-7 {
   height: 615px;
   margin-left: 112px;
   margin-top: 81px;
@@ -693,7 +372,7 @@
   width: 1352px;
 }
 
-.google-design-challenge .overlap-group17 {
+.google-design-challenge .overlap-group15 {
   height: 1239px;
   margin-left: 6px;
   margin-top: 70px;
@@ -775,11 +454,11 @@
 .google-design-challenge .span1-2 {
   color: var(--black);
   font-family: var(--font-family-roboto);
-  font-size: 18px;
+  font-size: var(--font-size-xxxs);
   font-weight: 400;
 }
 
-.google-design-challenge .overlap-group18 {
+.google-design-challenge .overlap-group16 {
   height: 398px;
   margin-left: 65px;
   margin-top: 37px;
@@ -814,7 +493,7 @@
   width: 434px;
 }
 
-.google-design-challenge .flex-row-5 {
+.google-design-challenge .flex-row-3 {
   align-items: flex-end;
   display: flex;
   height: 214px;
@@ -872,7 +551,7 @@
   width: 323px;
 }
 
-.google-design-challenge .overlap-group4 {
+.google-design-challenge .overlap-group2 {
   height: 323px;
   margin-top: 0;
   position: relative;
@@ -897,7 +576,7 @@
   width: 323px;
 }
 
-.google-design-challenge .flex-row-6 {
+.google-design-challenge .flex-row-4 {
   align-items: flex-end;
   display: flex;
   height: 206px;
@@ -938,7 +617,7 @@
   width: 269px;
 }
 
-.google-design-challenge .overlap-group10 {
+.google-design-challenge .overlap-group8 {
   height: 742px;
   margin-left: 6px;
   margin-top: 121px;
@@ -987,7 +666,7 @@
   width: 217px;
 }
 
-.google-design-challenge .flex-row-7 {
+.google-design-challenge .flex-row-5 {
   align-items: flex-start;
   display: flex;
   margin-left: 254px;
@@ -995,7 +674,7 @@
   min-width: 553px;
 }
 
-.google-design-challenge .overlap-group14 {
+.google-design-challenge .overlap-group12 {
   height: 264px;
   position: relative;
   width: 176px;
@@ -1042,7 +721,7 @@
   width: 21px;
 }
 
-.google-design-challenge .overlap-group12 {
+.google-design-challenge .overlap-group10 {
   align-items: flex-end;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/first-time-user-change-password---profile-picture@1x.png);
   background-position: 50% 50%;
@@ -1055,7 +734,7 @@
   width: 168px;
 }
 
-.google-design-challenge .overlap-group21 {
+.google-design-challenge .overlap-group19 {
   height: 9px;
   margin-top: 26px;
   position: relative;
@@ -1085,7 +764,7 @@
   width: 28px;
 }
 
-.google-design-challenge .overlap-group20 {
+.google-design-challenge .overlap-group18 {
   align-items: flex-start;
   align-self: center;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/vector-7@1x.png);
@@ -1110,7 +789,7 @@
   width: 168px;
 }
 
-.google-design-challenge .flex-row-8 {
+.google-design-challenge .flex-row-6 {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -1120,7 +799,7 @@
   min-width: 1332px;
 }
 
-.google-design-challenge .flex-col-5 {
+.google-design-challenge .flex-col-3 {
   align-items: flex-end;
   display: flex;
   flex-direction: column;
@@ -1129,7 +808,7 @@
   width: 352px;
 }
 
-.google-design-challenge .overlap-group9 {
+.google-design-challenge .overlap-group7 {
   height: 284px;
   position: relative;
   width: 352px;
@@ -1192,7 +871,7 @@
   width: 148px;
 }
 
-.google-design-challenge .flex-col-6 {
+.google-design-challenge .flex-col-4 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1202,7 +881,7 @@
   width: 168px;
 }
 
-.google-design-challenge .overlap-group8 {
+.google-design-challenge .overlap-group6 {
   align-items: flex-start;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/asking-questions@1x.png);
   background-position: 50% 50%;
@@ -1266,7 +945,7 @@
   width: 131px;
 }
 
-.google-design-challenge .flex-col-7 {
+.google-design-challenge .flex-col-5 {
   align-items: flex-end;
   display: flex;
   flex-direction: column;
@@ -1278,7 +957,7 @@
 
 .google-design-challenge .vector-container-1 {
   align-items: center;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b550a38c6dddba224e68b1/img/under-community-page@1x.png);
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/under-community-page@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
@@ -1315,7 +994,7 @@
   width: 133px;
 }
 
-.google-design-challenge .flex-col-8 {
+.google-design-challenge .flex-col-6 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1323,7 +1002,7 @@
   width: 594px;
 }
 
-.google-design-challenge .flex-row-9 {
+.google-design-challenge .flex-row-7 {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -1338,7 +1017,7 @@
   width: 168px;
 }
 
-.google-design-challenge .flex-col-9 {
+.google-design-challenge .flex-col-7 {
   align-items: flex-end;
   align-self: flex-end;
   display: flex;
@@ -1348,7 +1027,7 @@
   width: 174px;
 }
 
-.google-design-challenge .overlap-group13 {
+.google-design-challenge .overlap-group11 {
   height: 263px;
   position: relative;
   width: 174px;
@@ -1376,14 +1055,14 @@
   width: 166px;
 }
 
-.google-design-challenge .overlap-group22 {
+.google-design-challenge .overlap-group20 {
   height: 306px;
   margin-left: 10px;
   position: relative;
   width: 208px;
 }
 
-.google-design-challenge .overlap-group7 {
+.google-design-challenge .overlap-group5 {
   height: 306px;
   left: 0;
   position: absolute;
@@ -1471,7 +1150,7 @@
   width: 11px;
 }
 
-.google-design-challenge .flex-row-10 {
+.google-design-challenge .flex-row-8 {
   align-items: flex-start;
   display: flex;
   margin-top: 47px;
@@ -1498,7 +1177,7 @@
   width: 167px;
 }
 
-.google-design-challenge .flex-col-10 {
+.google-design-challenge .flex-col-8 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1599,7 +1278,7 @@
   width: 456px;
 }
 
-.google-design-challenge .overlap-group16 {
+.google-design-challenge .overlap-group14 {
   height: 1394px;
   margin-top: 246px;
   position: relative;
