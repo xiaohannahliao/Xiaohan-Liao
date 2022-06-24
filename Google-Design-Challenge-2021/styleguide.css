@@ -1,11 +1,6 @@
 :root { 
-  --aquamarine: #78d9d5;
   --black: #000000;
-  --cruise: #b8ebe9;
-  --mint-tulip: #c9f0ee;
-  --morning-glory: #9ce3e0;
   --viking: #5ed2cd;
-  --white-ice: #def6f5;
  
   --font-size-l: 45px;
   --font-size-m: 30px;
@@ -13,7 +8,6 @@
   --font-size-xs: 22px;
   --font-size-xxs: 20px;
   --font-size-xxxs: 18px;
-  --font-size-xxxxs: 12px;
  
   --font-family-din_round-regular: "DIN Round-Regular", Helvetica;
   --font-family-roboto: "Roboto", Helvetica;
@@ -79,14 +73,6 @@
   color: var(--black);
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-xs);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.roboto-normal-black-12px {
-  color: var(--black);
-  font-family: var(--font-family-roboto);
-  font-size: var(--font-size-xxxxs);
   font-style: normal;
   font-weight: 400;
 }
