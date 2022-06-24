@@ -1,0 +1,1636 @@
+/* screen - google-design-challenge */
+
+.google-design-challenge {
+  align-items: flex-end;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 23110px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.google-design-challenge .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: -1108px;
+  margin-top: -13px;
+  min-height: 16066px;
+  width: 2554px;
+}
+
+.google-design-challenge .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 13837px;
+  width: 2554px;
+}
+
+.google-design-challenge .overlap-group11 {
+  height: 1227px;
+  margin-left: 6px;
+  position: relative;
+  width: 1459px;
+}
+
+.google-design-challenge .landingpage-1png-1 {
+  height: 1227px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.google-design-challenge .overlap-group5 {
+  height: 159px;
+  left: 268px;
+  position: absolute;
+  top: 12px;
+  width: 1445px;
+}
+
+.google-design-challenge .resume {
+  height: 159px;
+  left: 414px;
+  letter-spacing: 0.75px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 824px;
+}
+
+.google-design-challenge .playground {
+  height: 159px;
+  left: 207px;
+  letter-spacing: 0.75px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 824px;
+}
+
+.google-design-challenge .place {
+  height: 159px;
+  left: 0;
+  letter-spacing: 0.75px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 824px;
+}
+
+.google-design-challenge .connect {
+  height: 159px;
+  left: 621px;
+  letter-spacing: 0.75px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 824px;
+}
+
+.google-design-challenge .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 423px;
+  margin-left: 132px;
+  margin-top: 81px;
+  min-width: 1297px;
+}
+
+.google-design-challenge .project-prompt-your {
+  align-self: flex-end;
+  height: 397px;
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 580px;
+}
+
+.google-design-challenge .span-1 {
+  line-height: 41.8px;
+}
+
+.google-design-challenge .solutions-key-feat {
+  height: 240px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 104px;
+  width: 613px;
+}
+
+.google-design-challenge .group-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 92px;
+  min-height: 305px;
+  width: 1265px;
+}
+
+.google-design-challenge .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 173px;
+  width: 1248px;
+}
+
+.google-design-challenge .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 71px;
+  margin-left: 1.0px;
+  min-width: 1113px;
+}
+
+.google-design-challenge .frame-1 {
+  align-items: flex-end;
+  background-color: var(--white-ice);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  margin-top: 3px;
+  min-width: 58px;
+}
+
+.google-design-challenge .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -70.34px;
+  min-height: 108px;
+  width: 36px;
+}
+
+.google-design-challenge .surname {
+  letter-spacing: 0;
+  min-height: 16px;
+  width: 36px;
+}
+
+.google-design-challenge .line-1 {
+  height: 71px;
+  margin-right: 10.0px;
+  margin-top: 22px;
+  width: 5px;
+}
+
+.google-design-challenge .line-2 {
+  height: 40px;
+  margin-bottom: -151.33px;
+  margin-left: 153px;
+  width: 5px;
+}
+
+.google-design-challenge .line-3 {
+  height: 71px;
+  margin-bottom: -69.34px;
+  margin-left: 168px;
+  width: 5px;
+}
+
+.google-design-challenge .line-6 {
+  height: 40px;
+  margin-bottom: -151.33px;
+  margin-left: 161px;
+  width: 5px;
+}
+
+.google-design-challenge .line-4 {
+  height: 71px;
+  margin-bottom: -69.34px;
+  margin-left: 181px;
+  width: 5px;
+}
+
+.google-design-challenge .line-5 {
+  height: 71px;
+  margin-bottom: -72.33px;
+  margin-left: 347px;
+  width: 5px;
+}
+
+.google-design-challenge .painpoints-from-inte {
+  align-self: flex-end;
+  height: 39px;
+  letter-spacing: 0;
+  margin-left: 66px;
+  width: 180px;
+}
+
+.google-design-challenge .frame-3 {
+  align-items: flex-start;
+  background-color: var(--cruise);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  margin-left: 49px;
+  min-width: 58px;
+  padding: 20px 8px;
+}
+
+.google-design-challenge .rapid-user-testing {
+  align-self: flex-end;
+  height: 14px;
+  letter-spacing: 0;
+  margin-bottom: 13px;
+  margin-left: 58px;
+  width: 180px;
+}
+
+.google-design-challenge .frame-5 {
+  align-items: flex-start;
+  background-color: var(--aquamarine);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  margin-left: 55px;
+  min-width: 58px;
+  padding: 20px 8px;
+}
+
+.google-design-challenge .low-fidelity-ideatio {
+  align-self: flex-end;
+  height: 14px;
+  letter-spacing: 0;
+  margin-bottom: 7px;
+  margin-left: 64px;
+  width: 180px;
+}
+
+.google-design-challenge .frame-7 {
+  align-items: flex-start;
+  background-color: var(--bondi-blue);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  margin-left: 49px;
+  margin-top: 3px;
+  min-width: 58px;
+  padding: 20px 8px;
+}
+
+.google-design-challenge .group-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 54px;
+  min-width: 1248px;
+}
+
+.google-design-challenge .rectangle-1 {
+  background-color: #c9f0ee9c;
+  border-radius: 50px 0px 0px 50px;
+  height: 48px;
+  width: 178px;
+}
+
+.google-design-challenge .overlap-group {
+  height: 48px;
+  position: relative;
+  width: 357px;
+}
+
+.google-design-challenge .rectangle-2 {
+  background-color: #b8ebe9c2;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.google-design-challenge .rectangle-3 {
+  background-color: #9ce3e0b8;
+  height: 48px;
+  left: 178px;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.google-design-challenge .rectangle-4 {
+  background-color: #78d9d5ba;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.google-design-challenge .rectangle-5 {
+  background-color: #5ed2cdd6;
+  height: 48px;
+  left: 178px;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.google-design-challenge .rectangle-6 {
+  background-color: #00b8b0a1;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.google-design-challenge .rectangle-7 {
+  background-color: var(--bondi-blue);
+  border-radius: 0px 50px 50px 0px;
+  height: 48px;
+  left: 178px;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.google-design-challenge .flex-row-2 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 130px;
+  margin-right: 9.0px;
+  margin-top: 2px;
+  min-width: 1246px;
+}
+
+.google-design-challenge .identify-the-problem {
+  align-self: flex-end;
+  height: 126px;
+  letter-spacing: 0;
+  width: 158px;
+}
+
+.google-design-challenge .frame-2 {
+  align-items: flex-start;
+  background-color: var(--mint-tulip);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  margin-left: 82px;
+  margin-top: 6.33px;
+  min-width: 58px;
+  padding: 20px 8px;
+}
+
+.google-design-challenge .paper-prototypes {
+  height: 14px;
+  letter-spacing: 0;
+  margin-left: 60px;
+  margin-top: 2.33px;
+  width: 180px;
+}
+
+.google-design-challenge .frame-4 {
+  align-items: flex-start;
+  background-color: var(--morning-glory);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  margin-left: 44px;
+  margin-top: 6.33px;
+  min-width: 58px;
+  padding: 20px 8px;
+}
+
+.google-design-challenge .low-fidelity-ideation-1 {
+  height: 14px;
+  letter-spacing: 0;
+  margin-left: 82px;
+  margin-top: 0.33px;
+  width: 180px;
+}
+
+.google-design-challenge .overlap-group3 {
+  align-self: flex-start;
+  height: 97px;
+  margin-left: 42px;
+  position: relative;
+  width: 58px;
+}
+
+.google-design-challenge .frame-6 {
+  align-items: flex-start;
+  background-color: var(--viking);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 58px;
+  padding: 20px 8px;
+  position: absolute;
+  top: 39px;
+}
+
+.google-design-challenge .line-6-1 {
+  height: 40px;
+  left: 24px;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.google-design-challenge .high-fidelity-frames {
+  height: 14px;
+  letter-spacing: 0;
+  margin-left: 64px;
+  margin-top: 2.33px;
+  width: 180px;
+}
+
+.google-design-challenge .view-final-solution-video {
+  align-items: flex-end;
+  display: flex;
+  height: 883px;
+  margin-left: 32px;
+  margin-top: 48px;
+  padding: 1px 72px;
+  width: 1414px;
+}
+
+.google-design-challenge .overlap-group-1 {
+  height: 786px;
+  position: relative;
+  width: 1270px;
+}
+
+.google-design-challenge .hifi-thumb-1 {
+  height: 745px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1270px;
+}
+
+.google-design-challenge .view-the-interactive {
+  height: 65px;
+  left: 516px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 721px;
+  width: 238px;
+}
+
+.google-design-challenge .span1 {
+  text-decoration: underline;
+}
+
+.google-design-challenge .frame-10 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 181px;
+  min-height: 3965px;
+  width: 2491px;
+}
+
+.google-design-challenge .flex-row-3 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  height: 1635px;
+  margin-top: -8px;
+  min-width: 2476px;
+}
+
+.google-design-challenge .flex-col-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 1635px;
+  width: 874px;
+}
+
+.google-design-challenge .onboarding-screens {
+  height: 763px;
+  width: 874px;
+}
+
+.google-design-challenge .student-container {
+  height: 819px;
+  margin-top: 53px;
+  position: relative;
+  width: 874px;
+}
+
+.google-design-challenge .view-experienced-stu {
+  height: 819px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 443px;
+}
+
+.google-design-challenge .view-new-studentuser-1-self-profile {
+  height: 819px;
+  left: 431px;
+  position: absolute;
+  top: 0;
+  width: 443px;
+}
+
+.google-design-challenge .inbox-page {
+  align-self: flex-end;
+  height: 763px;
+  margin-bottom: 56px;
+  margin-left: 4px;
+  width: 443px;
+}
+
+.google-design-challenge .icons8-edit-1-1 {
+  height: 24px;
+  margin-bottom: 231.0px;
+  margin-left: 1131px;
+  width: 24px;
+}
+
+.google-design-challenge .flex-row-4 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  min-width: 1298px;
+}
+
+.google-design-challenge .frame-3-1 {
+  height: 776px;
+  width: 882px;
+}
+
+.google-design-challenge .view-resolved-answer {
+  height: 731px;
+  margin-bottom: 5.5px;
+  margin-left: 5px;
+  width: 411px;
+}
+
+.google-design-challenge .frame-4-1 {
+  height: 767px;
+  margin-left: -84px;
+  margin-top: 10px;
+  width: 1309px;
+}
+
+.google-design-challenge .frame-6-1 {
+  height: 779px;
+  margin-top: 16px;
+  width: 1343px;
+}
+
+.google-design-challenge .desktop-5 {
+  align-items: flex-end;
+  background-color: var(--white-ice);
+  display: flex;
+  flex-direction: column;
+  height: 1239px;
+  margin-top: 202px;
+  overflow: hidden;
+  padding: 0 43px;
+  width: 1446px;
+}
+
+.google-design-challenge .title {
+  align-self: center;
+  height: 176px;
+  letter-spacing: 6.75px;
+  margin-left: 56.0px;
+  margin-top: 162px;
+  width: 1050px;
+}
+
+.google-design-challenge .over-container {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 56px;
+  min-width: 1326px;
+}
+
+.google-design-challenge .overview-conducted-u {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 494px;
+  width: 595px;
+}
+
+.google-design-challenge .overlap-group1 {
+  height: 1058px;
+  margin-left: 79px;
+  position: relative;
+  width: 652px;
+}
+
+.google-design-challenge .private-message-grou {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 41.8px;
+  position: absolute;
+  top: 59px;
+  width: 623px;
+}
+
+.google-design-challenge .insights {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  width: 627px;
+}
+
+.google-design-challenge .opinions-peerorin-data-2 {
+  height: 284px;
+  margin-left: 240px;
+  margin-top: 204px;
+  object-fit: cover;
+  width: 1076px;
+}
+
+.google-design-challenge .frame-5-1 {
+  height: 686px;
+  margin-left: 6px;
+  margin-top: 121px;
+  width: 1424px;
+}
+
+.google-design-challenge .untitled12-1 {
+  height: 682px;
+  margin-left: 58px;
+  margin-top: 42px;
+  object-fit: cover;
+  width: 1355px;
+}
+
+.google-design-challenge .frame-7-1 {
+  height: 615px;
+  margin-left: 112px;
+  margin-top: 81px;
+  width: 1247px;
+}
+
+.google-design-challenge .untitled13-2 {
+  height: 727px;
+  margin-left: 37px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 1352px;
+}
+
+.google-design-challenge .overlap-group17 {
+  height: 1239px;
+  margin-left: 6px;
+  margin-top: 70px;
+  position: relative;
+  width: 1446px;
+}
+
+.google-design-challenge .desktop-6 {
+  align-items: center;
+  background-color: var(--mint-tulip);
+  display: flex;
+  flex-direction: column;
+  height: 1239px;
+  left: 0;
+  padding: 72px 33px;
+  position: absolute;
+  top: 0;
+  width: 1446px;
+}
+
+.google-design-challenge .x2painpoints-i-dentification {
+  height: 164px;
+  letter-spacing: 6.75px;
+  margin-right: 12.0px;
+  margin-top: 86px;
+  text-align: center;
+  width: 1202px;
+}
+
+.google-design-challenge .frame-8 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 256px;
+  margin-top: 133px;
+  overflow: hidden;
+  width: 1345px;
+}
+
+.google-design-challenge .productivity-pain-po {
+  letter-spacing: 0;
+  margin-bottom: -19px;
+  margin-left: 29px;
+  min-height: 176px;
+  width: 1330px;
+}
+
+.google-design-challenge .support-pain-points {
+  letter-spacing: 0;
+  margin-left: 20.0px;
+  margin-top: 214px;
+  min-height: 242px;
+  width: 1272px;
+}
+
+.google-design-challenge .process-pain-points {
+  left: 98px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 738px;
+  width: 1293px;
+}
+
+.google-design-challenge .span1-1 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+}
+
+.google-design-challenge .financial-pain-point {
+  left: 98px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 404px;
+  width: 904px;
+}
+
+.google-design-challenge .span1-2 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.google-design-challenge .overlap-group18 {
+  height: 398px;
+  margin-left: 65px;
+  margin-top: 37px;
+  position: relative;
+  width: 1341px;
+}
+
+.google-design-challenge .group-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 335px;
+  left: 0;
+  min-width: 1341px;
+  padding: 0 0.0px;
+  position: absolute;
+  top: 63px;
+}
+
+.google-design-challenge .group-5-item {
+  height: 335px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 335px;
+}
+
+.google-design-challenge .story-of-jason-and-lisa {
+  left: 24px;
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  width: 434px;
+}
+
+.google-design-challenge .flex-row-5 {
+  align-items: flex-end;
+  display: flex;
+  height: 214px;
+  margin-left: 93px;
+  margin-top: 41px;
+  min-width: 1313px;
+}
+
+.google-design-challenge .name {
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  min-height: 210px;
+  width: 279px;
+}
+
+.google-design-challenge .the-orientation-happ {
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  margin-left: 56px;
+  min-height: 210px;
+  width: 280px;
+}
+
+.google-design-challenge .before-school-starte {
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  margin-left: 91px;
+  min-height: 210px;
+  width: 279px;
+}
+
+.google-design-challenge .facebook-was-disable {
+  align-self: flex-start;
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  margin-left: 49px;
+  min-height: 210px;
+  width: 279px;
+}
+
+.google-design-challenge .group-6 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 102px;
+  margin-top: 121px;
+  min-width: 1292px;
+  padding: 0 0.0px;
+}
+
+.google-design-challenge .group-6-item {
+  height: 323px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 323px;
+}
+
+.google-design-challenge .overlap-group4 {
+  height: 323px;
+  margin-top: 0;
+  position: relative;
+  width: 646px;
+}
+
+.google-design-challenge .x3 {
+  height: 323px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 323px;
+}
+
+.google-design-challenge .x4 {
+  height: 323px;
+  left: 323px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 323px;
+}
+
+.google-design-challenge .flex-row-6 {
+  align-items: flex-end;
+  display: flex;
+  height: 206px;
+  margin-left: 129px;
+  margin-top: 31px;
+  min-width: 1265px;
+}
+
+.google-design-challenge .name-1 {
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  min-height: 202px;
+  width: 269px;
+}
+
+.google-design-challenge .she-led-three-sectio {
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  margin-left: 54px;
+  min-height: 202px;
+  width: 269px;
+}
+
+.google-design-challenge .name-2 {
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  margin-left: 88px;
+  min-height: 202px;
+  width: 268px;
+}
+
+.google-design-challenge .however-all-the-inc {
+  align-self: flex-start;
+  letter-spacing: 0.44px;
+  line-height: 26px;
+  margin-left: 48px;
+  min-height: 203px;
+  width: 269px;
+}
+
+.google-design-challenge .overlap-group10 {
+  height: 742px;
+  margin-left: 6px;
+  margin-top: 121px;
+  position: relative;
+  width: 1456px;
+}
+
+.google-design-challenge .desktop-7 {
+  align-items: flex-start;
+  background-color: var(--cruise);
+  display: flex;
+  height: 742px;
+  left: 0;
+  padding: 121px 101px;
+  position: absolute;
+  top: 0;
+  width: 1456px;
+}
+
+.google-design-challenge .x3-app-features-and-paper-prototypes {
+  height: 178px;
+  letter-spacing: 6.75px;
+  text-align: center;
+  width: 1254px;
+}
+
+.google-design-challenge .this-app-should-b {
+  left: 96px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 334px;
+  width: 1220px;
+}
+
+.google-design-challenge .span2 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+}
+
+.google-design-challenge .onboarding-task-1-lo {
+  height: 77px;
+  margin-left: 538.39px;
+  margin-top: 37px;
+  width: 217px;
+}
+
+.google-design-challenge .flex-row-7 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 254px;
+  margin-top: 52px;
+  min-width: 553px;
+}
+
+.google-design-challenge .overlap-group14 {
+  height: 264px;
+  position: relative;
+  width: 176px;
+}
+
+.google-design-challenge .loginsignin {
+  height: 264px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 167px;
+}
+
+.google-design-challenge .vector-2 {
+  height: 41px;
+  left: 97px;
+  position: absolute;
+  top: 108px;
+  width: 60px;
+}
+
+.google-design-challenge .vector-3 {
+  height: 2px;
+  left: 94px;
+  position: absolute;
+  top: 152px;
+  width: 36px;
+}
+
+.google-design-challenge .vector-4 {
+  height: 29px;
+  left: 100px;
+  position: absolute;
+  top: 166px;
+  width: 19px;
+}
+
+.google-design-challenge .vector-9 {
+  height: 48px;
+  left: 156px;
+  position: absolute;
+  top: 124px;
+  width: 21px;
+}
+
+.google-design-challenge .overlap-group12 {
+  align-items: flex-end;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/first-time-user-change-password---profile-picture@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  min-height: 264px;
+  padding: 88.5px 31.5px;
+  width: 168px;
+}
+
+.google-design-challenge .overlap-group21 {
+  height: 9px;
+  margin-top: 26px;
+  position: relative;
+  width: 36px;
+}
+
+.google-design-challenge .sd {
+  height: 9px;
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.google-design-challenge .vector-5 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 36px;
+}
+
+.google-design-challenge .vector-6 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 6px;
+  width: 28px;
+}
+
+.google-design-challenge .overlap-group20 {
+  align-items: flex-start;
+  align-self: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/vector-7@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 17px;
+  margin-left: 31.0px;
+  margin-top: 27px;
+  min-width: 28px;
+  padding: 2.0px 0;
+}
+
+.google-design-challenge .vector-8 {
+  height: 1px;
+  width: 13px;
+}
+
+.google-design-challenge .loading-animation-fo {
+  height: 264px;
+  margin-left: 25px;
+  object-fit: cover;
+  width: 168px;
+}
+
+.google-design-challenge .flex-row-8 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 629px;
+  margin-left: 17.5px;
+  margin-top: 45px;
+  min-width: 1332px;
+}
+
+.google-design-challenge .flex-col-5 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 11.69px;
+  min-height: 408px;
+  width: 352px;
+}
+
+.google-design-challenge .overlap-group9 {
+  height: 284px;
+  position: relative;
+  width: 352px;
+}
+
+.google-design-challenge .home-page-after-login {
+  height: 263px;
+  left: 185px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 167px;
+}
+
+.google-design-challenge .vector-10 {
+  height: 37px;
+  left: 306px;
+  position: absolute;
+  top: 248px;
+  width: 15px;
+}
+
+.google-design-challenge .vector-11 {
+  height: 14px;
+  left: 160px;
+  position: absolute;
+  top: 35px;
+  width: 31px;
+}
+
+.google-design-challenge .vector-12 {
+  height: 16px;
+  left: 220px;
+  position: absolute;
+  top: 34px;
+  width: 11px;
+}
+
+.google-design-challenge .vector-13 {
+  height: 15px;
+  left: 268px;
+  position: absolute;
+  top: 218px;
+  width: 17px;
+}
+
+.google-design-challenge .changed-home-page {
+  height: 263px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 166px;
+}
+
+.google-design-challenge .home-page-1-search-a {
+  height: 93px;
+  margin-right: 8.79px;
+  margin-top: 31px;
+  width: 148px;
+}
+
+.google-design-challenge .flex-col-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 11.69px;
+  min-height: 473px;
+  width: 168px;
+}
+
+.google-design-challenge .overlap-group8 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b54ffa7a89cd987ca83e90/img/asking-questions@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 263px;
+  padding: 36.5px 9.5px;
+  width: 168px;
+}
+
+.google-design-challenge .vector-14 {
+  align-self: center;
+  height: 9px;
+  margin-left: 52.0px;
+  margin-top: 24px;
+  width: 43px;
+}
+
+.google-design-challenge .vector-container {
+  height: 39px;
+  position: relative;
+  width: 140px;
+}
+
+.google-design-challenge .vector-15 {
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.google-design-challenge .vector-17 {
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 96px;
+}
+
+.google-design-challenge .vector-18 {
+  height: 13px;
+  left: 91px;
+  position: absolute;
+  top: 21px;
+  width: 24px;
+}
+
+.google-design-challenge .vector-16 {
+  height: 59px;
+  margin-left: 8.0px;
+  margin-top: 59px;
+  width: 98px;
+}
+
+.google-design-challenge .home-page-1-write-a {
+  height: 141px;
+  margin-left: 15.0px;
+  margin-top: 70px;
+  width: 131px;
+}
+
+.google-design-challenge .flex-col-7 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 11.69px;
+  min-height: 371px;
+  width: 168px;
+}
+
+.google-design-challenge .vector-container-1 {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62b54fe57a89cd987ca83e8f/releases/62b550a38c6dddba224e68b1/img/under-community-page@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 263px;
+  padding: 2.5px 9.5px;
+  width: 168px;
+}
+
+.google-design-challenge .vector-19 {
+  align-self: flex-end;
+  height: 9px;
+  width: 12px;
+}
+
+.google-design-challenge .vector-21 {
+  height: 26px;
+  margin-left: 6.0px;
+  margin-top: 109px;
+  width: 19px;
+}
+
+.google-design-challenge .vector-20 {
+  height: 26px;
+  margin-left: 18.0px;
+  margin-top: 49px;
+  width: 27px;
+}
+
+.google-design-challenge .community-page-1save {
+  height: 77px;
+  margin-right: 4.53px;
+  margin-top: 31px;
+  width: 133px;
+}
+
+.google-design-challenge .flex-col-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 629px;
+  width: 594px;
+}
+
+.google-design-challenge .flex-row-9 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 318px;
+  min-width: 568px;
+}
+
+.google-design-challenge .posting-experience {
+  height: 263px;
+  margin-top: 11.69px;
+  object-fit: cover;
+  width: 168px;
+}
+
+.google-design-challenge .flex-col-9 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  min-height: 306px;
+  width: 174px;
+}
+
+.google-design-challenge .overlap-group13 {
+  height: 263px;
+  position: relative;
+  width: 174px;
+}
+
+.google-design-challenge .view-unconnected-exp {
+  height: 263px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 166px;
+}
+
+.google-design-challenge .vector-22 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 75px;
+}
+
+.google-design-challenge .posting-experience-1 {
+  height: 43px;
+  width: 166px;
+}
+
+.google-design-challenge .overlap-group22 {
+  height: 306px;
+  margin-left: 10px;
+  position: relative;
+  width: 208px;
+}
+
+.google-design-challenge .overlap-group7 {
+  height: 306px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 208px;
+}
+
+.google-design-challenge .vector-31 {
+  height: 37px;
+  left: 170px;
+  position: absolute;
+  top: 257px;
+  width: 38px;
+}
+
+.google-design-challenge .new-students-individual-profile {
+  height: 306px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 167px;
+}
+
+.google-design-challenge .vector-23 {
+  height: 1px;
+  left: 10px;
+  position: absolute;
+  top: 48px;
+  width: 52px;
+}
+
+.google-design-challenge .vector-24 {
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 74px;
+  width: 48px;
+}
+
+.google-design-challenge .vector-25 {
+  height: 1px;
+  left: 13px;
+  position: absolute;
+  top: 84px;
+  width: 55px;
+}
+
+.google-design-challenge .vector-26 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 124px;
+  width: 22px;
+}
+
+.google-design-challenge .vector-27 {
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 139px;
+  width: 16px;
+}
+
+.google-design-challenge .vector-29 {
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 173px;
+  width: 16px;
+}
+
+.google-design-challenge .vector-30 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 224px;
+  width: 14px;
+}
+
+.google-design-challenge .vector-28 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 155px;
+  width: 11px;
+}
+
+.google-design-challenge .flex-row-10 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 47px;
+  min-width: 560px;
+}
+
+.google-design-challenge .message {
+  height: 264px;
+  object-fit: cover;
+  width: 166px;
+}
+
+.google-design-challenge .explore-virtual-campus {
+  height: 264px;
+  margin-left: 27px;
+  object-fit: cover;
+  width: 166px;
+}
+
+.google-design-challenge .view-shop-in-vr {
+  height: 264px;
+  margin-left: 34px;
+  object-fit: cover;
+  width: 167px;
+}
+
+.google-design-challenge .flex-col-10 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: -16px;
+  margin-top: 82px;
+  min-height: 7941px;
+  width: 1456px;
+}
+
+.google-design-challenge .desktop-8 {
+  align-items: flex-start;
+  background-color: var(--morning-glory);
+  display: flex;
+  height: 742px;
+  overflow: hidden;
+  padding: 266px 0;
+  width: 1456px;
+}
+
+.google-design-challenge .x4u-ser-testing-on-paper-prototypes {
+  height: 178px;
+  letter-spacing: 6.75px;
+  margin-left: 228px;
+  width: 1254px;
+}
+
+.google-design-challenge .usertesing-1 {
+  height: 512px;
+  margin-right: 84.0px;
+  margin-top: 138px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.google-design-challenge .desktop-9 {
+  align-items: flex-start;
+  background-color: var(--aquamarine);
+  display: flex;
+  height: 742px;
+  margin-top: 50px;
+  padding: 276px 101px;
+  width: 1456px;
+}
+
+.google-design-challenge .x5-low-fi-frames {
+  height: 178px;
+  letter-spacing: 6.75px;
+  text-align: center;
+  width: 1254px;
+}
+
+.google-design-challenge .untitled18-1 {
+  height: 1470px;
+  margin-left: 25.0px;
+  margin-top: 72px;
+  object-fit: cover;
+  width: 1361px;
+}
+
+.google-design-challenge .desktop-10 {
+  align-items: flex-start;
+  background-color: var(--viking);
+  display: flex;
+  height: 742px;
+  margin-top: 112px;
+  padding: 276px 101px;
+  width: 1456px;
+}
+
+.google-design-challenge .x6-visual-identities-explorations {
+  height: 178px;
+  letter-spacing: 6.75px;
+  text-align: center;
+  width: 1254px;
+}
+
+.google-design-challenge .logo-styles-1 {
+  height: 439px;
+  margin-left: 86.0px;
+  margin-top: 157px;
+  object-fit: cover;
+  width: 1226px;
+}
+
+.google-design-challenge .letters-layout-1 {
+  height: 465px;
+  margin-right: 16.0px;
+  margin-top: 155px;
+  object-fit: cover;
+  width: 942px;
+}
+
+.google-design-challenge .icon-1-1 {
+  height: 357px;
+  margin-right: 104.0px;
+  margin-top: 148px;
+  object-fit: cover;
+  width: 456px;
+}
+
+.google-design-challenge .overlap-group16 {
+  height: 1394px;
+  margin-top: 246px;
+  position: relative;
+  width: 1456px;
+}
+
+.google-design-challenge .desktop-11 {
+  align-items: flex-start;
+  background-color: var(--viking);
+  display: flex;
+  height: 742px;
+  left: 0;
+  padding: 276px 101px;
+  position: absolute;
+  top: 0;
+  width: 1456px;
+}
+
+.google-design-challenge .x7takeaways {
+  height: 178px;
+  letter-spacing: 6.75px;
+  text-align: center;
+  width: 1254px;
+}
+
+.google-design-challenge .if-there-is-more-tim {
+  height: 830px;
+  left: 101px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 564px;
+  width: 1293px;
+}

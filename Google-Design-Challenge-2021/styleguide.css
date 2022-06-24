@@ -1,0 +1,109 @@
+:root { 
+  --aquamarine: #78d9d5;
+  --black: #000000;
+  --bondi-blue: #00b8b0;
+  --cruise: #b8ebe9;
+  --mint-tulip: #c9f0ee;
+  --morning-glory: #9ce3e0;
+  --viking: #5ed2cd;
+  --white-ice: #def6f5;
+ 
+  --font-size-l: 45px;
+  --font-size-m: 30px;
+  --font-size-s: 25px;
+  --font-size-xs: 22px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 15px;
+  --font-size-xxxxs: 12px;
+ 
+  --font-family-din_round-regular: "DIN Round-Regular", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-roboto_condensed: "Roboto Condensed", Helvetica;
+}
+.roboto-bold-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.robotocondensed-bold-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-roboto_condensed);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-black-45px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dinround-regular-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-din_round-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
